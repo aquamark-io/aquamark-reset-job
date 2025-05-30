@@ -1,0 +1,6 @@
+services:
+  - type: cron
+    name: reset-usage-monthly
+    schedule: "0 0 1 * *"
+    plan: free
+    env: docker
